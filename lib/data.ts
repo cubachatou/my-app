@@ -1,24 +1,24 @@
 import { Product } from './types';
 
-// Product images from iamsound.one (Ukrainian flute maker)
+// Mockup images - placeholders for product photos
 const fluteImages = {
   sopilka: {
-    natural: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/sopilka-natural-wood.jpg?v=1700000001',
-    black: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/sopilka-black.jpg?v=1700000002',
-    white: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/sopilka-white.jpg?v=1700000003',
-    wood: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/sopilka-dark-wood.jpg?v=1700000004',
+    natural: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=1000&fit=crop',
+    black: 'https://images.unsplash.com/photo-1460667262436-cf19894f4774?w=800&h=1000&fit=crop',
+    white: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=1000&fit=crop',
+    wood: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop',
   },
   pan: {
-    bamboo: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/pan-flute-bamboo.jpg?v=1700000005',
-    copper: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/pan-flute-copper.jpg?v=1700000006',
-    silver: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/pan-flute-silver.jpg?v=1700000007',
-    gold: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/pan-flute-gold.jpg?v=1700000008',
+    bamboo: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=1000&fit=crop',
+    copper: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=800&h=1000&fit=crop',
+    silver: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&h=1000&fit=crop',
+    gold: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&h=1000&fit=crop',
   },
   ocarinaPro: {
-    ocean: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/ocarina-blue.jpg?v=1700000009',
-    earth: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/ocarina-brown.jpg?v=1700000010',
-    rose: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/ocarina-pink.jpg?v=1700000011',
-    storm: 'https://cdn.shopify.com/s/files/1/0628/1808/4675/files/ocarina-gray.jpg?v=1700000012',
+    ocean: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=1000&fit=crop',
+    earth: 'https://images.unsplash.com/photo-1524650359799-842906ca1c06?w=800&h=1000&fit=crop',
+    rose: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&h=1000&fit=crop',
+    storm: 'https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&h=1000&fit=crop',
   },
 };
 
